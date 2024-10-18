@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>FOSS</title>
+</head>
+<body>
+    <form>
+        <label for="username">Username</label><br>
+        <input type="text" name="username" id="username"><br>
+        <label for="password">Password</label><br>
+        <input type="text" name="password" id="password"><br>
+        <label for="password-confirm">Confirm password</label><br>
+        <input type="text" name="password-confirm" id="password-confirm"><br>
+        <button type="submit" id="submission-button">Submit</button>
+
+        <ul class="req-block" id="req-block">
+            <li class="requirements" id="missing-username">Missing username</li>
+            <li class="requirements" id="missing-password">Password must be at least 8 digits</li>
+            <li class="requirements" id="pwd-match">Passwords do not match</li>
+            <li class="requirements" id="uppercase">Missing Uppercase</li>
+            <li class="requirements" id="lowercase">Missing lowercase</li>
+            <li class="requirements" id="number">Missing number</li>
+            <li class="requirements" id="special">Missing special character</li>
+        </ul>
+    </form>
+    <script src="./script.js"></script>
+</body>
+</html>

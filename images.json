@@ -1,0 +1,31 @@
+{
+    "collection_name":"FOSS_Sample_Images",
+    "date_created":"2024-10-17",
+    "collection_items":[
+        {
+            "src":"beach",
+            "alt":"beach"
+        },{
+            "src":"forest",
+            "alt":"forest"
+        },{
+            "src":"garden",
+            "alt":"garden"
+        },{
+            "src":"river",
+            "alt":"river"
+        },{
+            "src":"lake",
+            "alt":"lake"
+        },{
+            "src":"lake_abstract",
+            "alt":"lake_abstract"
+        },{
+            "src":"grey_cactus",
+            "alt":"grey_cactus"
+        },{
+            "src":"pilars",
+            "alt":"pilars"
+        }
+    ]
+}
